@@ -1,8 +1,9 @@
 import React, {Component} from 'react';
-import axios from 'axios';
-import Loading from './Loading';
+import '../../resources/css/bootstrap.css';
+import axios from 'axios/index';
+import Loading from '../Loading';
 
-class Users extends Component {
+class User extends Component {
 
     constructor(props) {
         super(props);
@@ -44,7 +45,7 @@ class Users extends Component {
                 </div>)
             }
             <form onSubmit={this.handleSubmit}>
-                <input type='submit' value='Load more' />
+                <input className="btn btn-primary" type='submit' value='Load more' />
             </form>
         </div>
     );
@@ -62,4 +63,4 @@ class Users extends Component {
     }
 }
 
-export default Users;
+export default User;

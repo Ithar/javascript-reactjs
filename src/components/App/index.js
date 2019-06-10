@@ -1,18 +1,16 @@
 import React, {Component} from 'react';
-import './resources/css/App.css';
-import Users from './components/Users';
+import '../../resources/css/App.css';
+import logo from '../../resources/images/spika.jpg';
+import Users from '../Users';
 
 class App extends Component {
-
-    constructor(props) {
-        super(props);
-    }
 
     // Part of react life cycle; at the end
     render() {
       return(
       <div className="App">
         <header className="App-header">
+            <img src={logo} className="App-logo" alt="logo" />
             <Users />
         </header>
       </div>

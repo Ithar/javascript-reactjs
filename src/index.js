@@ -1,8 +1,8 @@
-import React from 'react';              // Main react library
-import ReactDOM from 'react-dom';       // Works as glue between react elements and reactJS
-import './resources/css/index.css';     // Basic css
-import App from './App';                // A react component
-import * as serviceWorker from './serviceWorker';   // Let the app load faster on subsequent loads
+import React from 'react';                          // Main react library
+import ReactDOM from 'react-dom';                   // Works as glue between react elements and reactJS
+import './resources/css/index.css';                // Basic css
+import App from './components/App';                // A react component
+import * as serviceWorker from './serviceWorker';  // Let the app load faster on subsequent loads
 
 ReactDOM.render(<App />, document.getElementById('root'));
 serviceWorker.unregister();

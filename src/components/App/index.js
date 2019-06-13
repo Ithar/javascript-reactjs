@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import '../../resources/css/App.css';
+import './App.css';
 import logo from '../../resources/images/spika.jpg';
 import Users from '../Users';
 

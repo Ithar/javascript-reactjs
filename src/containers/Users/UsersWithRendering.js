@@ -1,9 +1,7 @@
 import React, {Component} from 'react';
-import './bootstrap.css';
 import axios from 'axios/index';
-import Loading from '../Loading';
 
-class Users extends Component {
+class UsersWithRendering extends Component {
 
     constructor(props) {
         super(props);
@@ -40,7 +38,7 @@ class Users extends Component {
     showUsers = (users) => (
         <div>
             {users.map(user => (
-               <User user={user}/>
+                <User user={user} key={user.id.value}/>
             ))}
             <form onSubmit={this.handleSubmit}>
                 <input className="btn btn-primary" type='submit' value='Load more' />
@@ -55,17 +53,17 @@ class Users extends Component {
 
         return(
             <div>
-            {loaded ? this.showUsers(users) :  <Loading message='please wait ... '/>}
+                {loaded ? this.showUsers(users) :  <div>lll</div>}
             </div>
         );
     }
 }
 
 const User = ({user}) => (
-    <div style={{color: 'red'}} key={user.id.value}>
-        <span>{user.name.first} {user.name.last}</span>
+    <div style={{color: 'red'}}>
+        <span key={user.id.value}>{user.name.first} {user.name.last}</span>
     </div>
 );
 
 
-export default Users;
+export default UsersWithRendering;

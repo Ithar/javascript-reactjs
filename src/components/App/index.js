@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import logo from '../../resources/images/spika.jpg';
-import Users from '../Users';
+import Users from '../../containers/Users/';
 
 class App extends Component {
 

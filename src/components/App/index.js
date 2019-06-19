@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import logo from '../../resources/images/spika.jpg';
-import Users from '../../containers/Users/';
+import Main from '../Main';
 
 class App extends Component {
 
@@ -11,7 +11,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
-            <Users />
+            <Main />
         </header>
       </div>
       );

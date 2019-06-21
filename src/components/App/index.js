@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import logo from '../../resources/images/spika.jpg';
-import Main from '../../containers/Main';
+import Routing from '../../containers/Routing';
 
 class App extends Component {
 
@@ -11,7 +11,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
-            <Main />
+            <Routing />
         </header>
       </div>
       );

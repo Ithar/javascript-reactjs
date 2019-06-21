@@ -1,5 +1,5 @@
 import React from 'react';
-import './bootstrap.css';
+import '../../resources/css/bootstrap.css';
 
 const UsersList = ({users, loadMore}) => (
     <div>

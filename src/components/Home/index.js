@@ -12,11 +12,11 @@ const Home = props => (
         </div>
 
         <div className='section'>
-            <Link to={'/users'}><img src={series} alt='Series' /> Series</Link>
+            <Link to={'/series'}><img src={series} alt='Series' /> Series</Link>
         </div>
 
         <div className='section'>
-            <Link to={'/users'}><img src={news} alt='News' /> News</Link>
+            <Link to={'/news'}><img src={news} alt='News' /> News</Link>
         </div>
     </div>
 );

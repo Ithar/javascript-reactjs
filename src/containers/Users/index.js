@@ -20,8 +20,8 @@ class Users extends Component {
     }
 
     loadUsers() {
-        axios('https://api.randomuser.me/?nat=US&results=3').
-        then(response => {
+        axios('https://api.randomuser.me/?nat=US&results=3')
+        .then(response => {
             this.setState({
                 users : [...this.state.users, ...response.data.results],
                 loaded : true

@@ -8,18 +8,15 @@ import news from './resources/news.png';
 const Home = props => (
     <div>
         <div className='section'>
-            <img src={users} alt='Users' />
-            <Link to={'/users'}>Users</Link>
+            <Link to={'/users'}><img src={users} alt='Users' /> Users</Link>
         </div>
 
         <div className='section'>
-            <img src={series} alt='Series' />
-            <Link to={'/users'}>Series</Link>
+            <Link to={'/users'}><img src={series} alt='Series' /> Series</Link>
         </div>
 
         <div className='section'>
-            <img src={news} alt='News' />
-            <Link to={'/users'}>News</Link>
+            <Link to={'/users'}><img src={news} alt='News' /> News</Link>
         </div>
     </div>
 );

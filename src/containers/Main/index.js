@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Home from '../../components/Home';
-import Users from '../../containers/Users';
+import Users from '../Users';
 
 const Main = props =>(
     <Switch>

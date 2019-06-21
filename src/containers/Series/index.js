@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import axios from 'axios/index';
-import SeriesList from '../../components/SeriesList';
+import SeriesList from '../../components/Series/SeriesList';
 
 class Series extends Component {
 

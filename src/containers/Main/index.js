@@ -9,6 +9,7 @@ const Main = props =>(
         <Route exact path="/" component={Home} />
         <Route exact path="/users" component={Users} />
         <Route exact path="/series" component={Series} />
+        <Route exact path="/series/:id" component={Series} />
         <Route exact path="/news" component={Users} />
     </Switch>
 );

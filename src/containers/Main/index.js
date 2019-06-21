@@ -2,7 +2,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Home from '../../components/Home';
 import Users from '../Users';
-import Series from '../Series';
+import Series from '../Series/List';
 
 const Main = props =>(
     <Switch>

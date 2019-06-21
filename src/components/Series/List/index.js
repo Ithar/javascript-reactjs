@@ -18,7 +18,7 @@ const SeriesList = ({series, seriesSearch}) => (
 
 const ShowItem = ({show}) => (
     <div>
-        <Link to='series/'>{show.name}</Link>
+        <Link to={`/series/${show.id}`}>{show.name}</Link>
     </div>
 );
 

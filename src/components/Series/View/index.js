@@ -1,8 +1,12 @@
 import React from 'react';
 
-const View = (props) => (
+const View = ({show}) => (
     <div>
-        Hello am a single series ....
+        <p>{show.name}</p>
+        <p>Premiered: {show.premiered}</p>
+        <p>Language: {show.language}</p>
+        <p>Rating: {show.rating.average}</p>
+        <img src={show.image.medium} alt={show.name}/>
     </div>
 );
 

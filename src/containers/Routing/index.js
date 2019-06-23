@@ -4,6 +4,7 @@ import Home from '../../components/Home';
 import Users from '../Users';
 import SeriesList from '../Series/List';
 import SeriesView from '../Series/View';
+import NewsList from '../News/List';
 
 const Main = props =>(
     <Switch>
@@ -11,7 +12,7 @@ const Main = props =>(
         <Route exact path="/users" component={Users} />
         <Route exact path="/series" component={SeriesList} />
         <Route exact path="/series/:id" component={SeriesView} />
-        <Route exact path="/news" component={Users} />
+        <Route exact path="/news" component={NewsList} />
     </Switch>
 );
 

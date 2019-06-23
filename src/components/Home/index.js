@@ -16,7 +16,7 @@ const Home = props => (
         </div>
 
         <div className='section'>
-            <Link to={'/news'}><img src={news} alt='News' /> News</Link>
+            <Link to={'/news'}><img src={news} alt='News' /> News (Hooks)</Link>
         </div>
     </div>
 );

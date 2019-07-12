@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import NewsList from "../../../components/News/List";
 
-const Index = (props) => {
+const Index = () => {
 
   const [news, setNews] = useState([]);
   const [searchTerm, setSearchTerm] = useState('reactJS');

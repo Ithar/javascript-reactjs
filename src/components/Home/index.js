@@ -5,7 +5,7 @@ import users from './resources/users.png';
 import series from './resources/series.png';
 import news from './resources/news.png';
 
-const Home = props => (
+const Home = () => (
     <div>
         <div className='section'>
             <Link to={'/users'}><img src={users} alt='Users' /> Users</Link>

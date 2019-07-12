@@ -6,7 +6,7 @@ import SeriesList from '../Series/List';
 import SeriesView from '../Series/View';
 import NewsList from '../News/List';
 
-const Main = props =>(
+const Main = () =>(
     <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/users" component={Users} />

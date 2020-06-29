@@ -1,0 +1,16 @@
+div.userList {
+  margin-top: 50px;
+}
+
+h1.username {
+  color: #ffe8a1;
+}
+
+p.address {
+  font-size: 50%;
+}
+
+p.email {
+  font-size: 50%;
+  color: #005cbf;
+}
